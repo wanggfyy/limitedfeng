@@ -1,1 +1,43 @@
-[]
+[
+    {
+        "name": "baocai/yprint",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kelaocai/yprint.git",
+            "reference": "9648d638466ad9bd99283a6e9bbe83b02be9f0ab"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kelaocai/yprint/zipball/9648d638466ad9bd99283a6e9bbe83b02be9f0ab",
+            "reference": "9648d638466ad9bd99283a6e9bbe83b02be9f0ab",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "time": "2017-02-19T13:08:28+00:00",
+        "type": "sdk",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "BaoCai\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "kelaocai",
+                "email": "kelaocai@163.com"
+            }
+        ],
+        "description": "Elind Printer SDK"
+    }
+]

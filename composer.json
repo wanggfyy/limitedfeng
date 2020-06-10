@@ -3,7 +3,8 @@
     "description": "is a goods bject",
     "type": "library",
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "baocai/yprint": "dev-master"
     },
     "authors": [
         {

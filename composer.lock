@@ -4,12 +4,54 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21d07d5e65ff806d851cdf070861b7ce",
-    "packages": [],
+    "content-hash": "169c7881cb2a6d28f93e26afc2b21774",
+    "packages": [
+        {
+            "name": "baocai/yprint",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kelaocai/yprint.git",
+                "reference": "9648d638466ad9bd99283a6e9bbe83b02be9f0ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kelaocai/yprint/zipball/9648d638466ad9bd99283a6e9bbe83b02be9f0ab",
+                "reference": "9648d638466ad9bd99283a6e9bbe83b02be9f0ab",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "sdk",
+            "autoload": {
+                "psr-4": {
+                    "BaoCai\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kelaocai",
+                    "email": "kelaocai@163.com"
+                }
+            ],
+            "description": "Elind Printer SDK",
+            "time": "2017-02-19T13:08:28+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "baocai/yprint": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

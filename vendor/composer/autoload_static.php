@@ -12,6 +12,10 @@ class ComposerStaticInit0cab5943053d2ea157bb3fba66072ff1
             'Feng\\Limited\\Tests\\' => 19,
             'Feng\\Limited\\' => 13,
         ),
+        'B' => 
+        array (
+            'BaoCai\\' => 7,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -22,6 +26,10 @@ class ComposerStaticInit0cab5943053d2ea157bb3fba66072ff1
         'Feng\\Limited\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'BaoCai\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/baocai/yprint/src',
         ),
     );
 

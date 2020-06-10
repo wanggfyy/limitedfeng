@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Feng\\Limited\\Tests\\' => array($baseDir . '/tests'),
     'Feng\\Limited\\' => array($baseDir . '/src'),
+    'BaoCai\\' => array($vendorDir . '/baocai/yprint/src'),
 );
