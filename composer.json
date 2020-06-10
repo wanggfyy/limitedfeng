@@ -1,0 +1,25 @@
+{
+    "name": "feng/limited",
+    "description": "is a goods bject",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "authors": [
+        {
+            "name": "gaofeng123",
+            "email": "15110028307@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Feng\\Limited\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Feng\\Limited\\Tests\\": "tests/"
+        }
+    }
+}
